@@ -17,21 +17,15 @@
   </div>
   <main>
     <div id="entradas">
-      <input type="number" name="entradanumber" placeholder="Digite a Chave de Cifra" id="entradanumber" min="1" value="0">
+      <input type="number" name="entradanumber" placeholder="Digite a Chave de Cifra" id="entradanumber">
       <!-- <input type="text" name="entradatext" id="entradatext" placeholder="Digite o Texto a ser Criptografado ou Traduzido."> -->
-      <textarea name="entradatext" type="text" placeholder="Digite o Texto a ser Criptografado ou Traduzido." id="entradatext" wrap="soft"></textarea>
+      <textarea name="entradatext" type="text" placeholder="Digite o Texto a ser Criptografado ou Traduzido." id="entradatext"></textarea>
 
-      <textarea name="saidatext" type="text" placeholder="Resultado" id="saidatext" wrap="soft"></textarea>
+      <!-- <textarea name="saidatext" type="text" placeholder="Resultado" id="saidatext"></textarea> -->
       <div id="botao">
-      <button id="criptografar" class="button" type="submit">Criptografar</button>
-
-      <button id="descriptografar" class="button" type="submit">Traduzir</button>
+      <button id="criptografar" class="button">Criptografar</button>
+      <button id="traduzir" class="button">Traduzir</button>
       </div>
-      
-    </div>
-    <div id="resultado">
-      <span id="res"></span><!-- div temporaria -->
-      <span id="res2"></span><!-- div temporaria -->
     </div>
   </main>
 </section>
