@@ -43,7 +43,7 @@ To run tests, run the following command
 ```bash
   npm test
 ```
-  
+![Resultado testes](SAP006-cipher\src\imagens\Animação-testes.gif)
 ## Authors
 
 - [@larissavilelasobral](https://github.com/larissavilelasobral)
