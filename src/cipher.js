@@ -1,13 +1,13 @@
 var quantidadeLetras = 65;
 
-const cipher = { //variavel cipher em objeto
-  encode: function(entradanumber,entradatext) { //funcão encode e seus parametros
+const cipher = { 
+  encode: function(entradanumber,entradatext) { 
     let message = ""; //
     if (entradanumber == "" || entradatext == ""){
       throw new TypeError('Valor string não adicionado. index.js:10', 'index.js', 10)
     }
-    for (let i = 0; i < entradatext.length; i++) { //loop que rota até o tamanho do texto de entrada
-      let codeEncode = entradatext.charCodeAt(i); //entra a palavra, e o numero zero; primeira letra e sai o numero dela C=67
+    for (let i = 0; i < entradatext.length; i++) { 
+      let codeEncode = entradatext.charCodeAt(i); 
       if(codeEncode >= 32 && codeEncode <= 64){
         message += entradatext.charAt(i);
       }else if(codeEncode >= 65 && codeEncode<=90){
@@ -39,4 +39,3 @@ return messageSegunda;
 }
 }
 export default cipher;
-
