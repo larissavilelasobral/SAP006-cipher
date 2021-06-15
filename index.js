@@ -1,14 +1,15 @@
 import cipher from './cipher.js'; 
 
 //console.log(cipher);
+//toUpperCase()
 
 const buttonCriptografar = document.getElementById("criptografar");
 
-    function criptografarCode() { 
-        const entradanumber = Number(document.getElementById("entradanumber").value);
-        const entradatext = document.getElementById("entradatext").value.toUpperCase(); 
-        const cipherCode = cipher.encode(entradanumber,entradatext); 
-            document.getElementById("entradatext").value = cipherCode; 
+function criptografarCode() { 
+    const entradanumber = Number(document.getElementById("entradanumber").value);
+    const entradatext = document.getElementById("entradatext").value; 
+     const cipherCode = cipher.encode(entradanumber,entradatext); 
+        document.getElementById("entradatext").value = cipherCode; 
 }
 buttonCriptografar.addEventListener("click", criptografarCode); 
 
