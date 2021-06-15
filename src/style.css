@@ -74,7 +74,7 @@ h3{
     outline: 0;
     border: 1px solid #1B0140;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(128, 128, 128, 0.5);
+    color: rgb(43, 43, 43);
     font-size: 0.9em;
 }
 textarea{
@@ -85,7 +85,7 @@ textarea{
     outline: 0;
     border: 1px solid #1B0140;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(128, 128, 128, 0.5);
+    color: rgb(43, 43, 43);
     font-size: 0.9em;
     background-color: rgb(255, 255, 255);
     resize: none
