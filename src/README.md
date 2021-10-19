@@ -1,7 +1,7 @@
 # Project Cifra de César
 
 Aplicação onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset) para gerar uma senha mais segura.
-![Imagem Aplicação](https://i.ibb.co/6mFVXJV/gerador-de-senha.jpg)
+![Imagem Aplicação](https://i.ibb.co/jgdSh7F/image.png)
     
 
 ## Sobre o Projeto
