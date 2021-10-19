@@ -1,19 +1,8 @@
 # Project Cifra de César
 
 Aplicação onde o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (offset) para gerar uma senha mais segura.
-
-![Logo](https://images-na.ssl-images-amazon.com/images/I/61K6UvP2XxL.png)
-
+![Imagem Aplicação](https://i.ibb.co/6mFVXJV/gerador-de-senha.jpg)
     
-## Índice
-
-- Sobre o Projeto
-
-- Usuários
-
-- UX e UI
-
-- Testes
 
 ## Sobre o Projeto
 Utilizar a técnica de criptografia(Cifra de César), uma cifra de substituição na qual cada letra de um texto a ser criptografado é substituída por outra letra, presente no alfabeto porém deslocada um certo número de posições à esquerda ou à direita.
@@ -21,31 +10,45 @@ Utilizar a técnica de criptografia(Cifra de César), uma cifra de substituiçã
 ## Usuários
 Qualquer pessoa que deseje criar uma senha mais forte utilizando a cifra de césar.
 
-## UX e UI
-_layout do projeto_
-(https://i.ibb.co/6RX83n5/leyout.jpg)
+Cifrar significa codificar. A cifra de César é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.
 
-_Botões_
-Utilizei a paleta de cores para definir a cor de fundo dos botões, no css utilizei a classe para estilizar os dois tirando o design padrão e fazendo um novo que usar :haver para dar um efeito elegante com css.
+![Cifra Senha](https://i.ibb.co/m5WqXRy/image.png)
 
-_Paleta de cores_
-(https://i.ibb.co/FJ1R781/paleta.jpg)
-A ideia inicial era usar tons de Azul mas não ficou muito bom então optei por tons mais escuros.
-[Link](https://color.adobe.com/pt/color%20theme_conceito-de-protecao-de-dados-garantia-de-seguranca-online_107791-142-color-theme-17600318)
-
-_H1 e H2_
-Optei por utilizar uma fonte externa usando @impor.
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm test
+## :file_folder: Estrutura dos Principais Arquivos
 ```
+.
+├── 📁 src
+|   ├── 📁 imagens 
+|   ├── 📄 cipher.js
+|   ├── 📄 index.html
+|   ├── 📄 index.js
+|   └── 📄 style.css
+├── 📁 test
+|   └── 📄 cipher.spec.js
+├── 📁 img
+├── 📄 README.md
+├── 📄 package.json
+
+```
+### Funcionamento 
+A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
+
+Por exemplo se usarmos o deslocamento (offset) de 3 posições:
+
+Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+A letra A será D
+A palavra CASA será FDVD
+Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
+
+![gif cifra](https://gifyu.com/images/gif-cifra.gif)
+
+-----------
+
 ![Resultado testes](https://raw.githubusercontent.com/larissavilelasobral/SAP006-cipher/main/src/imagens/Anima%C3%A7%C3%A3o-testes.gif)
 ## Authors
 
-- [@larissavilelasobral](https://github.com/larissavilelasobral)
+### [Larissa Vilela](https://www.linkedin.com/in/larissa-vilela-sobral/)
 
   
