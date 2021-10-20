@@ -19,14 +19,13 @@ Cifrar significa codificar. A cifra de César é um dos primeiros tipos de cript
 ```
 .
 ├── 📁 src
-|   ├── 📁 imagens 
+|   ├── 📁 imgs 
 |   ├── 📄 cipher.js
 |   ├── 📄 index.html
 |   ├── 📄 index.js
 |   └── 📄 style.css
 ├── 📁 test
 |   └── 📄 cipher.spec.js
-├── 📁 img
 ├── 📄 README.md
 ├── 📄 package.json
 
